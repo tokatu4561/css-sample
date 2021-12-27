@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    横2->横2
+    <div class="flex justify-center mb-16">
+        <div class="text-center border border-red-300 py-4 flex-grow">aaa
+        </div>
+        <div class="text-center border border-red-300 py-4 flex-grow">aaa</div>
+    </div>
+
+    縦2->横2
+    <div class="md:flex justify-center mb-16">
+        <div class="text-center border border-red-300 py-4 flex-grow">aaa
+        </div>
+        <div class="text-center border border-red-300 py-4 flex-grow">aaa</div>
+    </div>
+
+    縦2->横2 幅 5/12 7/12
+    <div class="md:flex justify-center mb-16">
+        <div class="text-center border border-red-300 py-4 flex-grow md:w-5/12">aaa
+        </div>
+        <div class="text-center border border-red-300 py-4 flex-grow md:w-7/12">aaa</div>
+    </div>
+
+    縦2->横2(逆順)
+    <div class="md:flex flex-row-reverse justify-center mb-16">
+        <div class="text-center border border-red-300 py-4 flex-grow">aaa
+        </div>
+        <div class="text-center border border-blue-300 py-4 flex-grow">aaa</div>
+    </div>
+</body>
+</html>
